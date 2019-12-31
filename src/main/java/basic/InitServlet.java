@@ -1,4 +1,4 @@
-package info.thecodinglive.basic;
+package basic;
 
 import java.io.IOException;
 
