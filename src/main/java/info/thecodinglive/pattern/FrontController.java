@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = "/controller", initParams = {@WebInitParam(name = "mapping",
+@WebServlet(urlPatterns = "/info.controller", initParams = {@WebInitParam(name = "mapping",
 		value = "/WEB-INF/command.properties")})
 public class FrontController extends HttpServlet {
 	private Properties cmdMapping;
